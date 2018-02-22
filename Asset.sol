@@ -34,7 +34,8 @@ contract Assets{
         
   
 	function getfunds() constant public ifOwner returns(uint){
-        return this.balance;    }
+        return this.balance;    
+	}
     
     
 }
